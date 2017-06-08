@@ -1,115 +1,158 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/font-awesome.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:700|Rubik+Mono+One" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enrollment Mobile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/hero.css">
 </head>
-<style>
+<body>
+<section class="hero is-primary is-large header-image">
+    <div class="hero-head">
+        <header class="nav">
+            <div class="container">
+                <div class="nav-left">
+                    <a class="nav-item" href="./index.html">
+                    </a>
+                </div>
+                <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+                <div class="nav-right nav-menu">
 
-  html{
-    background: url("assets/img/weather.png") repeat 0 0;
-  }
+                <span class="nav-item">
+                    <a href="https://packagist.org/packages/manelgavalda/enrollment_mobile" class="button is-info is-outlined is-inverted">
+                        <span class="icon">
+                            <i class="fa fa-archive"></i>
+                        </span>
+                        <span>Packagist</span>
+                    </a>
+                </span>
 
-  body{
-    font-family: 'Ubuntu', sans-serif;
-    background: transparent;
-    padding-top: 20px;
-  }
-  div{
-    text-align: center;
-    align-items: center;
-  }
-  span{
-    display: inline-block;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rubik Mono One', Georgia, Times, serif;
-  }
-  p, div {
-    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-  }
-  div.input-group{
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
-<body data-spy="scroll" data-target="#navar-example">
-<!--<div class="container-fluid">-->
+                <span class="nav-item">
+                    <a href="https://manelgavalda.github.io/enrollment_mobile_presentation" class="button is-info is-outlined is-inverted">
+                        <span class="icon">
+                            <i class="fa fa-rocket"></i>
+                        </span>
+                        <span>Online Presentation</span>
+                    </a>
 
-  <!--<nav class="navbar navbar-static-top" id="navbar-example">-->
-    <!--<div class="container">-->
-      <!--<div class="navbar-header">-->
-        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
-          <!--<span class="sr-only">Toggle navigation</span>-->
-          <!--<span class="icon-bar"></span>-->
-          <!--<span class="icon-bar"></span>-->
-          <!--<span class="icon-bar"></span>-->
-        <!--</button>-->
-        <!--<a class="navbar-brand" href="#">Enrollment Mobile</a>-->
-      <!--</div>-->
-      <!--<div id="navbar" class="navbar-collapse collapse">-->
-        <!--<ul class="nav navbar-nav">-->
-          <!--<li class="active"><a href="index.html">Home</a></li>-->
-          <!--<li><a href="index_old.html">Landing Old</a></li>-->
-          <!--<li class="dropdown">-->
-            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bootstrap<span class="caret"></span></a>-->
-            <!--<ul class="dropdown-menu">-->
-              <!--<li><a href="cover/index.html">Cover</a></li>-->
-              <!--<li><a href="carousel/index.html">Carousel</a></li>-->
-              <!--<li><a href="justified-nav/index.html">Columns (Justified)</a></li>-->
-            <!--</ul>-->
-          <!--</li>-->
+                    <a href="https://manelgavalda.github.io/todosBackendApiDocs" class="button is-info is-outlined is-inverted">
+                        <span class="icon">
+                            <i class="fa fa-code"></i>
+                        </span>
+                        <span>Api Documentation</span>
+                    </a>
+                </span>
 
-          <!--<li class="dropdown">-->
-            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bulma<span class="caret"></span></a>-->
-            <!--<ul class="dropdown-menu">-->
-              <!--<li><a href="bulma/index.html">Bulma</a></li>-->
-            <!--</ul>-->
-          <!--</li>-->
-        <!--</ul>-->
-      <!--</div>-->
-    <!--</div>-->
-  </nav>
+                    <span class="nav-item">
+                      <a href="https://github.com/manelgavalda/EnrollmentMobileVue" class="button is-info is-outlined is-inverted">
+                        <span class="icon">
+                          <i class="fa fa-github"></i>
+                        </span>
+                        <span>Mobile Project</span>
+                      </a>
 
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <div class="panel panel-default">
-        <h1> Ebre-escool enrollment mobile </h1>
+                      <a href="https://github.com/manelgavalda/enrollment_mobile_test" class="button is-info is-outlined is-inverted">
+                        <span class="icon">
+                          <i class="fa fa-github"></i>
+                        </span>
+                        <span>Demo Project</span>
+                      </a>
 
-        <p>Mobile application to create enrollments</p>
-          <!--<button class="btn btn-success btn-lg" type="submit">Keep me informed!</button>-->
-          <a href="https://play.google.com/store" class="btn btn-primary btn-block" type="submit">Google Play App</a>
-        </form>
-        <!--<a href="bulma/index.html" class="btn btn-lg btn-default">Bulma example</a>-->
-
-        <!--<a href="carousel/index.html" class="btn btn-lg btn-default">Carousel example</a>-->
-        <div style="margin-top:100px">
-          <a href="http://enrollmentmobile.manelgavalda.sintesi.acacha.org:8080/" class="btn btn-lg btn-default">Online Admin Project</a>
-
-          <a href="https://manelgavalda.github.io/enrollment_mobile_presentation/#/" class="btn btn-lg btn-default">Presentation</a>
-        </div>
-
-<div style="margin-top:50px">
-  <a href="https://github.com/manelgavalda/enrollment_mobile" class="btn btn-lg btn-default">Github Package</a>
-
-  <a href="https://github.com/manelgavalda/enrollment_mobile_test" class="btn btn-lg btn-default">Test Package</a>
-
-  <a href="https://github.com/manelgavalda/enrollmentmobilevue" class="btn btn-lg btn-default">Mobile Application Package</a>
-
-  <a href="https://github.com/manelgavalda/enrollmentmobilecordova" class="btn btn-lg btn-default">Mobile Application Cordova</a>
-</div>
-      </div>
+                      <a href="https://github.com/manelgavalda/enrollment_mobile" class="button is-info is-outlined is-inverted">
+                        <span class="icon">
+                          <i class="fa fa-github"></i>
+                        </span>
+                        <span>Composer Project</span>
+                      </a>
+                    </span>
+                </div>
+            </div>
+        </header>
     </div>
-  </div>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-2">
+                Enrollment Mobile
+            </h1>
+            <h2 class="subtitle is-5">
+                Create your enrollments with this simple mobile application
+            </h2>
+            <p>
+                <a href="https://play.google.com/store?hl=es" class="button is-outlined">
+                    <span class="icon">
+                      <i class="fa fa-android"></i>
+                    </span>
+                            <span>
+                      Google Play Application
+                    </span>
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+<div class="hero-cta">
+    <nav class="level">
+        <div class="level-item has-text-centered">
+            <p class="title"><a href="http://enrollmentmobile.manelgavalda.sintesi.acacha.org/" class="button is-primary"><span class="icon"><i class="fa fa-laptop"></i></span><span>Online Admin Demo</span></a></p>
+        </div>
+    </nav>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="assets/js/bootstrap.min.js"></script>
+<div class="section main">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-4">
+                <div class="panel">
+                    <div class="panel-block section">
+                        <p class="has-text-centered"><i class="fa fa-mobile icon-block"></i></p>
+                        <br>
+                        <p>Mobile Application to create, view, edit and track your enrollments with notifications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="panel">
+                    <div class="panel-block section">
+                        <p class="has-text-centered"><i class="fa fa-archive icon-block"></i></p>
+                        <br>
+                            <p>Composer Package to run on Laravel to manage and validate user created enrollments.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="column is-4">
+                <div class="panel">
+                    <div class="panel-block section">
+                        <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
+                        <br>
+                            <p> Online demo Project, online project documentation with online project documentation</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Enrollment Mobile</strong> by Manel Gavaldà
+            </p>
+            <p>
+                <a class="icon" href="https://github.com/jgthms/bulma">
+                    <i class="fa fa-github"></i>
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+<script async type="text/javascript" src="./bulma/bulma.js"></script>
 </body>
 </html>
